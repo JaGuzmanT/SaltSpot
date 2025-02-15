@@ -2,7 +2,7 @@
 
 ## 📌 Overview  
 
-The **SaltSpot dataset** is a collection of **7,635 high-resolution images** 📸 of concrete surfaces, specifically designed for **deep learning applications in civil engineering**. This dataset enables **automated detection** of **salt-induced damage** 🧂 on concrete structures using **computer vision techniques**.  
+The **SaltSpot dataset** is a collection of **3,799 images** 📸 of concrete surfaces, specifically designed for **deep learning applications in civil engineering**. This dataset enables **automated detection** of **salt damage** 🧂 on concrete structures using **computer vision techniques**.  
 
 This dataset was used in the research:  
 📄 *"SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure"*.  
