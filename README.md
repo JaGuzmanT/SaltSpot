@@ -22,13 +22,18 @@ SaltSpot_Dataset/
 
 │── train/ │ 
 
-  ├── Class_0/ (Healthy Structures) │
+    ├── Class_0/ (Healthy Structures) │
   
-  ├── Class_1/ (Salt Damaged Structures) │ 
+    ├── Class_1/ (Salt Damaged Structures) │ 
 
 │── valid/ │
-  ├── Class_0/ │
-  ├── Class_1/ │
-│── test/ │ 
-  ├── Class_0/ │ 
-  ├── Class_1/ |
+
+    ├── Class_0/ │
+  
+    ├── Class_1/ │
+
+│── test/ │
+
+    ├── Class_0/ │ 
+    
+    ├── Class_1/ |
