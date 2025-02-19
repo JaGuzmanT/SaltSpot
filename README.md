@@ -18,4 +18,13 @@ The dataset is divided into two **main classes**:
 - ❌ **Class 1 - •	Structure with salt damage:** Concrete surfaces with visible salt-related deterioration, including **spalling, scaling, discoloration, and crystal deposits**.  
 
 ### **📁 Folder Organization:**  
-SaltSpot_Dataset/ │── train/ │ ├── Class_0/ (Healthy Structures) │ ├── Class_1/ (Salt Damaged Structures) │ │── valid/ │ ├── Class_0/ │ ├── Class_1/ │ │── test/ │ ├── Class_0/ │ ├── Class_1/
+SaltSpot_Dataset/
+│── train/ │ 
+  ├── Class_0/ (Healthy Structures) │
+  ├── Class_1/ (Salt Damaged Structures) │ 
+│── valid/ │
+  ├── Class_0/ │
+  ├── Class_1/ │
+│── test/ │ 
+  ├── Class_0/ │ 
+  ├── Class_1/ |
