@@ -51,7 +51,7 @@ To download this dataset, clone this repository using:
 
 Alternatively, you can download the dataset manually from the Releases section.
 
-Applications
+## Applications
 
 ---
 The SaltSpot dataset is intended for machine learning and deep learning applications, including:
@@ -61,7 +61,7 @@ The SaltSpot dataset is intended for machine learning and deep learning applicat
 - Data Augmentation & Preprocessing techniques for improving model generalization.
 - Structural Health Monitoring (SHM) applications in civil engineering.
 
-Citation
+## Citation
 
 If you use this dataset in your research or project, please cite the following paper:
 
@@ -76,15 +76,15 @@ If you use this dataset in your research or project, please cite the following p
   doi       = {XX.XXXXX/journal.xxx}
 }
 
-License
+## License
 
 This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the authors appropriately.
 
-Contact
+## Contact
 For any questions or issues, please open an issue in this repository or contact:
 
 J. A. Guzmán-Torres - Lead Researcher
-Email: example@email.com
+Email: jose.alberto.guzman@umich.mx.com
 Institution: Universidad Michoacana de San Nicolás de Hidalgo
 
 MIT License © 2024 J. A. Guzmán-Torres et al.
