@@ -28,12 +28,12 @@ SaltSpot_Dataset/
 
 │── valid/ │
 
-    ├── Class_0/ │
+    ├── Class_0/ (Healthy Structures) │
   
-    ├── Class_1/ │
+    ├── Class_1/ (Salt Damaged Structures) │
 
 │── test/ │
 
-    ├── Class_0/ │ 
+    ├── Class_0/ (Healthy Structures) │ 
     
-    ├── Class_1/ |
+    ├── Class_1/ (Salt Damaged Structures) │
