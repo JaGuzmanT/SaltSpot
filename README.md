@@ -19,9 +19,13 @@ The dataset is divided into two **main classes**:
 
 ### **📁 Folder Organization:**  
 SaltSpot_Dataset/
+
 │── train/ │ 
+
   ├── Class_0/ (Healthy Structures) │
+  
   ├── Class_1/ (Salt Damaged Structures) │ 
+
 │── valid/ │
   ├── Class_0/ │
   ├── Class_1/ │
