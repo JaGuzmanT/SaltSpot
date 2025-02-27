@@ -71,7 +71,7 @@ If you use this dataset in your research or project, please cite the following p
   year      = {2025}, <br>
   volume    = {233}, <br>
   pages     = {433-447}, <br>
-  doi       = {https://doi.org/10.1016/j.matcom.2025.02.003} <br>
+  doi       = {https://doi.org/10.1016/j.matcom.2025.02.003 } <br>
 }
 
 ## ⚖️ License
