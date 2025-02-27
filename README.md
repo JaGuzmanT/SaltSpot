@@ -76,12 +76,12 @@ If you use this dataset in your research or project, please cite the following p
 
 ## ⚖️ License
 
-This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the *authors* appropriately.
+This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the *authors* appropriately. <br>
 *MIT License © 2025 J. A. Guzmán-Torres et al.*
 
 ## 📩 Contact
 For any questions or issues, please open an issue 🔗 in this repository or contact:
 
-📢 J. A. Guzmán-Torres - Lead Researcher
-✉️ Email: jose.alberto.guzman@umich.mx.com
+📢 J. A. Guzmán-Torres - Lead Researcher <br>
+✉️ Email: jose.alberto.guzman@umich.mx.com <br>
 🏛 Institution: Universidad Michoacana de San Nicolás de Hidalgo
