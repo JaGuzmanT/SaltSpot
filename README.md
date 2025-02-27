@@ -38,18 +38,17 @@ SaltSpot_Dataset/
     
     ├── Class_1/ (Salt Damaged Structures) │
 
-Each folder contains images in **.jpg** format, preprocessed to a resolution of **224x224 pixels** for compatibility with **deep learning models**.
-
+📌 **Images are in `.jpg` format** and have been preprocessed to **224x224 pixels** for deep learning applications.
 ---
 
-## Usage
+## 🛠️ Usage
 
-### **Downloading the Dataset**
+### **📥 Downloading the Dataset**
 To download this dataset, clone this repository using:
 
     git clone https://github.com/yourusername/SaltSpot.git
 
-Alternatively, you can download the dataset manually from the Releases section.
+Alternatively, you can download the dataset manually from the __Releases__ section.
 
 ## Applications
 
