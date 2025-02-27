@@ -1,5 +1,5 @@
 # 🏗️ SaltSpot Dataset: Salt Damage Detection in Concrete Structures 🏛️  
-![](Salt_damage.jpg)
+![](Salt_damage.jpg)![](Salt_damage.jpg)
 
 ## 📌 Overview  
 
