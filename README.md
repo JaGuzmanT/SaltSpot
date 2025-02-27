@@ -50,29 +50,28 @@ To download this dataset, clone this repository using:
 
 Alternatively, you can download the dataset manually from the __Releases__ section.
 
-## Applications
+## 📊 Applications
 
 ---
-The SaltSpot dataset is intended for machine learning and deep learning applications, including:
+🔍 The SaltSpot dataset is intended for machine learning and deep learning applications, including:
 
-- Binary Classification of salt-damaged vs. non-damaged structures.
-- Transfer Learning using pre-trained CNN models like ResNet50, VGG16, and MobileNet.
+- Binary Classification of salt-damaged vs. non-damaged structures 🏚️.
+- Transfer Learning using pre-trained CNN models like ResNet50, VGG16, and MobileNet 🧠.
 - Data Augmentation & Preprocessing techniques for improving model generalization.
-- Structural Health Monitoring (SHM) applications in civil engineering.
+- Structural Health Monitoring (SHM) applications in civil engineering 🏗️.
 
-## Citation
+## 🏆 Citation
 
-If you use this dataset in your research or project, please cite the following paper:
+If you use this dataset in your research or project, please cite the following papers:
 
-@article{guzmantorres2024saltspot,
-  author    = {J. A. Guzmán-Torres, F. J. Domínguez-Mota, G. Tinoco-Guerrero, E. M. Alonso-Guzmán, 
-               J. G. Tinoco-Guerrero, and M.Z. Naser},
-  title     = {SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure},
-  journal   = {Journal Name},
-  year      = {2024},
-  volume    = {XX},
-  pages     = {XX-XX},
-  doi       = {XX.XXXXX/journal.xxx}
+@article{guzmantorres2024saltspot, <br>
+  author    = {J. A. Guzmán-Torres, F. J. Domínguez-Mota, G. Tinoco-Guerrero, E. M. Alonso-Guzmán, J. G. Tinoco-Guerrero, and M.Z. Naser}, <br>
+  title     = {SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure}, <br>
+  journal   = {Journal Name}, <br>
+  year      = {2024}, <br>
+  volume    = {XX}, <br>
+  pages     = {XX-XX}, <br>
+  doi       = {XX.XXXXX/journal.xxx} <br>
 }
 
 ## License
