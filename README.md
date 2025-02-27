@@ -64,25 +64,24 @@ Alternatively, you can download the dataset manually from the __Releases__ secti
 
 If you use this dataset in your research or project, please cite the following papers:
 
-@article{guzmantorres2024saltspot, <br>
-  author    = {J. A. Guzmán-Torres, F. J. Domínguez-Mota, G. Tinoco-Guerrero, E. M. Alonso-Guzmán, J. G. Tinoco-Guerrero, and M.Z. Naser}, <br>
-  title     = {SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure}, <br>
-  journal   = {Journal Name}, <br>
-  year      = {2024}, <br>
-  volume    = {XX}, <br>
-  pages     = {XX-XX}, <br>
-  doi       = {XX.XXXXX/journal.xxx} <br>
+@article{guzman2025digital, <be>
+  title={A digital twin approach based method in civil engineering for classification of salt damage in building evaluation}, <br>
+  author={Guzm{\'a}n-Torres, JA and Dom{\'\i}nguez-Mota, FJ and Guzm{\'a}n, Elia M Alonso and Tinoco-Guerrero, G and Tinoco-Ru{\'\i}z, JG}, <br>
+  journal   = {Mathematics and Computers in Simulation}, <br>
+  year      = {2025}, <br>
+  volume    = {233}, <br>
+  pages     = {433-447}, <br>
+  doi       = {(https://doi.org/10.1016/j.matcom.2025.02.003)} <br>
 }
 
-## License
+## ⚖️ License
 
-This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the authors appropriately.
+This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the *authors* appropriately.
+*MIT License © 2025 J. A. Guzmán-Torres et al.*
 
-## Contact
-For any questions or issues, please open an issue in this repository or contact:
+## 📩 Contact
+For any questions or issues, please open an issue 🔗 in this repository or contact:
 
-J. A. Guzmán-Torres - Lead Researcher
-Email: jose.alberto.guzman@umich.mx.com
-Institution: Universidad Michoacana de San Nicolás de Hidalgo
-
-MIT License © 2024 J. A. Guzmán-Torres et al.
+📢 J. A. Guzmán-Torres - Lead Researcher
+✉️ Email: jose.alberto.guzman@umich.mx.com
+🏛 Institution: Universidad Michoacana de San Nicolás de Hidalgo
