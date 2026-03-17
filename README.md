@@ -1,6 +1,18 @@
 # 🏗️ SaltSpot Dataset: Salt Damage Detection in Concrete Structures 🏛️  
 ![](Salt_damage.jpg)![](Salt_damage_2.jpg)![](Salt_damage_3.jpg)
 
+## 📋 Table of Contents
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Dataset Structure](#-dataset-structure)
+- [Usage](#-usage)
+- [Applications](#-applications)
+- [Supported Frameworks](#-supported-frameworks)
+- [Research Team](#-research-team)
+- [Citation](#-citation)
+- [License](#-license)
+- [Contact](#-contact)
+
 ## 📌 Overview  
 
 The **SaltSpot dataset** is a collection of **1,542 images** 📸 of concrete surfaces, specifically designed for **deep learning applications in civil engineering**. This dataset enables **automated detection** of **salt damage** 🧂 on concrete structures using **computer vision techniques**.  
@@ -8,6 +20,15 @@ The **SaltSpot dataset** is a collection of **1,542 images** 📸 of concrete su
 This dataset was used in the research:  
 📄 *"SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure"*.  
 If you use this dataset in your research, please **cite our work** (see **Citation** section below).  
+
+---
+
+## ✨ Key Features
+
+- **📸 High-Quality Imagery**: 1,542 high-resolution images preprocessed to 224x224 pixels.
+- **🏷️ Expertly Labeled**: Binary classification (Healthy vs. Salt Damaged) verified by civil engineering experts.
+- **🏗️ Real-World Scenarios**: Captures diverse concrete textures, lighting conditions, and degradation levels.
+- **🧠 Ready for AI**: Formatted and organized specifically for CNN training (ResNet, VGG, MobileNet).
 
 ---
 
@@ -60,6 +81,19 @@ Alternatively, you can download the dataset manually from the __Releases__ secti
 - Transfer Learning using pre-trained CNN models like ResNet50, VGG16, and MobileNet 🧠.
 - Data Augmentation & Preprocessing techniques for improving model generalization.
 - Structural Health Monitoring (SHM) applications in civil engineering 🏗️.
+
+## 🛠️ Supported Frameworks
+
+<div align="center">
+
+| :package: Framework | :rocket: Usage |
+|:---:|:---:|
+| [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/) | **Deep Learning Model Training** |
+| [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/) | **Model Deployment & TFLite** |
+| [![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)](https://keras.io/) | **Rapid Prototyping** |
+| [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/) | **Image Preprocessing** |
+
+</div>
 
 ## 🧑‍🔬 Research Team
 
