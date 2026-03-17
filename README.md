@@ -197,7 +197,7 @@ If you use this dataset in your research or project, please cite the following p
 
 @article{guzman2025digital, <be>
   title={A digital twin approach based method in civil engineering for classification of salt damage in building evaluation}, <br>
-  author={Guzm{\'a}n-Torres, JA and Dom{\'\i}nguez-Mota, FJ and Guzm{\'a}n, Elia M Alonso and Tinoco-Guerrero, G and Tinoco-Ru{\'\i}z, JG}, <br>
+  author={Guzmán-Torres, JA and Domínguez-Mota, FJ and Guzmán, Elia M Alonso and Tinoco-Guerrero, G and Tinoco-Ruíz, JG}, <br>
   journal   = {Mathematics and Computers in Simulation}, <br>
   year      = {2025}, <br>
   volume    = {233}, <br>
