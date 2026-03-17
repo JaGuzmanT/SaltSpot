@@ -61,6 +61,136 @@ Alternatively, you can download the dataset manually from the __Releases__ secti
 - Data Augmentation & Preprocessing techniques for improving model generalization.
 - Structural Health Monitoring (SHM) applications in civil engineering 🏗️.
 
+## 🧑‍🔬 Research Team
+
+<div align="center">
+
+### 🌟 Meet the Team
+*Researchers advancing civil engineering and computational methods*
+
+</div>
+
+### 👥 Main Researchers
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center" width="120">Photo</th>
+      <th align="left">Researcher</th>
+      <th align="left">Affiliation</th>
+      <th align="left">Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/JAGT1.jpg" alt="Dr. José Alberto Guzmán Torres" width="96" height="96">
+      </td>
+      <td>
+        <b>Dr. José Alberto Guzmán Torres</b> :mexico:<br/>
+        <sub>Engineering Applications &amp; Artificial Intelligence</sub>
+      </td>
+      <td>
+        <a href="http://www.siiia.com.mx"><img alt="Company: SIIIA MATH" src="https://img.shields.io/badge/%F0%9F%8F%A2%20Company-SIIIA%20MATH-0B1B3A"></a><br/>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:jose.alberto.guzman@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="https://orcid.org/0000-0002-9309-9390"><img alt="ORCID 0000-0002-9309-9390" src="https://img.shields.io/badge/ORCID-0000--0002--9309--9390-green"></a><br/>
+        <a href="https://www.researchgate.net/profile/Jose-Guzman-Torres"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/FJDM1.jpg" alt="Dr. Francisco Javier Domínguez Mota" width="96" height="96">
+      </td>
+      <td>
+        <b>Dr. Francisco Javier Domínguez Mota</b> :mexico:<br/>
+        <sub>Applied Mathematics &amp; Finite Difference Methods</sub>
+      </td>
+      <td>
+        <a href="http://www.siiia.com.mx"><img alt="Company: SIIIA MATH" src="https://img.shields.io/badge/%F0%9F%8F%A2%20Company-SIIIA%20MATH-0B1B3A"></a><br/>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:francisco.mota@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="https://orcid.org/0000-0001-6837-172X"><img alt="ORCID 0000-0001-6837-172X" src="https://img.shields.io/badge/ORCID-0000--0001--6837--172X-green"></a><br/>
+        <a href="https://www.researchgate.net/profile/Francisco-Dominguez-Mota"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/EMAG.jpg" alt="Dra. Elia M. Alonso Guzmán" width="96" height="96">
+      </td>
+      <td>
+        <b>Dra. Elia M. Alonso Guzmán</b> :mexico:<br/>
+        <sub>Civil Engineering &amp; Materials Science</sub>
+      </td>
+      <td>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:elia.alonso@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="#"><img alt="ORCID Profile" src="https://img.shields.io/badge/ORCID-Profile-green"></a><br/>
+        <a href="#"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/GTG.jpg" alt="Dr. Gerardo Tinoco Guerrero" width="96" height="96">
+      </td>
+      <td>
+        <b>Dr. Gerardo Tinoco Guerrero</b> :mexico:<br/>
+        <sub>Numerical Methods &amp; Computational Mathematics</sub>
+      </td>
+      <td>
+        <a href="http://www.siiia.com.mx"><img alt="Company: SIIIA MATH" src="https://img.shields.io/badge/%F0%9F%8F%A2%20Company-SIIIA%20MATH-0B1B3A"></a><br/>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:gerardo.tinoco@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="https://orcid.org/0000-0003-3119-770X"><img alt="ORCID 0000-0003-3119-770X" src="https://img.shields.io/badge/ORCID-0000--0003--3119--770X-green"></a><br/>
+        <a href="https://www.researchgate.net/profile/Gerardo-Tinoco-Guerrero"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/JGTR1.jpg" alt="Dr. José Gerardo Tinoco Ruíz" width="96" height="96">
+      </td>
+      <td>
+        <b>Dr. José Gerardo Tinoco Ruíz</b> :mexico:<br/>
+        <sub>Applied Mathematics &amp; Computational Modeling</sub>
+      </td>
+      <td>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:jose.gerardo.tinoco@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="#"><img alt="ORCID Profile" src="https://img.shields.io/badge/ORCID-Profile-green"></a><br/>
+        <a href="#"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="120">
+        <img src="Public/docs/Images/Harias.webp" alt="Dr. Heriberto Árias Rojas" width="96" height="96">
+      </td>
+      <td>
+        <b>Dr. Heriberto Árias Rojas</b> :mexico:<br/>
+        <sub>Engineering Applications</sub>
+      </td>
+      <td>
+        <a href="http://www.siiia.com.mx"><img alt="Company: SIIIA MATH" src="https://img.shields.io/badge/%F0%9F%8F%A2%20Company-SIIIA%20MATH-0B1B3A"></a><br/>
+        <a href="http://www.umich.mx"><img alt="University: UMSNH" src="https://img.shields.io/badge/%F0%9F%8E%93%20University-UMSNH-1A3A6B"></a>
+      </td>
+      <td>
+        <a href="mailto:heriberto.arias@umich.mx"><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A7-Contact-blue"></a><br/>
+        <a href="https://orcid.org/0000-0002-7641-8310"><img alt="ORCID 0000-0002-7641-8310" src="https://img.shields.io/badge/ORCID-0000--0002--7641--8310-green"></a><br/>
+        <a href="https://www.researchgate.net/profile/Heriberto-Arias-Rojas"><img alt="ResearchGate Profile" src="https://img.shields.io/badge/ResearchGate-Profile-teal"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## 🏆 Citation
 
 If you use this dataset in your research or project, please cite the following papers:
