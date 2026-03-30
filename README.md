@@ -1,76 +1,143 @@
 # 🏗️ SaltSpot Dataset: Salt Damage Detection in Concrete Structures 🏛️  
-![](Salt_damage.jpg)![](Salt_damage_2.jpg)![](Salt_damage_3.jpg)
+
+<div align="center">
+  <img src="Salt_damage.jpg" width="30%" alt="Salt Damage Example 1"/>
+  <img src="Salt_damage_2.jpg" width="30%" alt="Salt Damage Example 2"/>
+  <img src="Salt_damage_3.jpg" width="30%" alt="Salt Damage Example 3"/>
+</div>
+<br/>
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Dataset Size](https://img.shields.io/badge/Dataset-1,542%20Images-blue.svg)](#-dataset-structure)
+[![Format](https://img.shields.io/badge/Format-224x224%20JPG-orange.svg)](#-key-features)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.matcom.2025.02.003-brightgreen.svg)](https://doi.org/10.1016/j.matcom.2025.02.003)
+
+</div>
 
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Key Features](#-key-features)
 - [Dataset Structure](#-dataset-structure)
-- [Usage](#-usage)
+- [Usage & Code Examples](#-usage--code-examples)
 - [Applications](#-applications)
 - [Supported Frameworks](#-supported-frameworks)
 - [Research Team](#-research-team)
 - [Citation](#-citation)
+- [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
 
 ## 📌 Overview  
 
-The **SaltSpot dataset** is a collection of **1,542 images** 📸 of concrete surfaces, specifically designed for **deep learning applications in civil engineering**. This dataset enables **automated detection** of **salt damage** 🧂 on concrete structures using **computer vision techniques**.  
+The **SaltSpot dataset** is a comprehensive collection of **1,542 high-resolution images** 📸 of concrete surfaces, specifically curated for **deep learning applications in civil engineering**. 
 
-This dataset was used in the research:  
-📄 *"SaltSpot: A Convolutional Neural Network Approach for Classifying Salt Contamination Damage on Civil Infrastructure"*.  
-If you use this dataset in your research, please **cite our work** (see **Citation** section below).  
+Salt contamination in concrete structures leads to severe deterioration, including rebar corrosion, spalling, and scaling. Traditional manual inspections are time-consuming and subjective. This dataset provides a standardized benchmark to enable the **automated detection** of **salt damage** 🧂 using modern **computer vision techniques**.
+
+This dataset is the official companion to the research paper:  
+📄 *"A digital twin approach based method in civil engineering for classification of salt damage in building evaluation"*.  
+*(If you use this dataset, please refer to the [Citation](#-citation) section).*
 
 ---
 
 ## ✨ Key Features
 
-- **📸 High-Quality Imagery**: 1,542 high-resolution images preprocessed to 224x224 pixels.
-- **🏷️ Expertly Labeled**: Binary classification (Healthy vs. Salt Damaged) verified by civil engineering experts.
-- **🏗️ Real-World Scenarios**: Captures diverse concrete textures, lighting conditions, and degradation levels.
-- **🧠 Ready for AI**: Formatted and organized specifically for CNN training (ResNet, VGG, MobileNet).
+- **📸 High-Quality Imagery**: 1,542 images preprocessed and standardized to 224x224 pixels.
+- **🏷️ Expertly Labeled**: Binary classification (Healthy vs. Salt Damaged) verified by civil engineering domain experts.
+- **🏗️ Real-World Scenarios**: Captures diverse concrete textures, varying lighting conditions, and different degradation levels (spalling, discoloration, crystal deposits).
+- **🧠 Ready for AI**: Pre-split into Train, Validation, and Test sets, optimized for immediate CNN training (e.g., ResNet, VGG, MobileNet).
 
 ---
 
 ## 📂 Dataset Structure  
 
-The dataset is divided into two **main classes**:  
+The dataset is strictly divided into two **main classes**:  
 
-- ✅ **Class 0 - •	Healthy structure:** Concrete surfaces without visible contamination or deterioration.  
-- ❌ **Class 1 - •	Structure with salt damage:** Concrete surfaces with visible salt-related deterioration, including **spalling, scaling, discoloration, and crystal deposits**.  
+- ✅ **Class 0 (`Healthy structure`)**: Concrete surfaces without visible contamination or deterioration.  
+- ❌ **Class 1 (`Structure with salt damage`)**: Concrete surfaces exhibiting visible salt-related deterioration.
 
-### **📁 Folder Organization:**  
-SaltSpot_Dataset/
+### 📊 Data Distribution
 
-│── train/ │ 
+| Split | Healthy Structure (Class 0) | Salt Damage (Class 1) | Total Images |
+| :--- | :---: | :---: | :---: |
+| **Train** | 795 | 555 | 1,350 |
+| **Validation** | 75 | 53 | 128 |
+| **Test** | 38 | 26 | 64 |
+| **Total** | **908** | **634** | **1,542** |
 
-    ├── Class_0/ (Healthy Structures) │
-  
-    ├── Class_1/ (Salt Damaged Structures) │ 
+### **📁 Folder Organization**  
+```text
+Civil-damage-structure-images/
+├── train/
+│   ├── Healthy structure/             # 795 images
+│   └── Structure with salt damage/    # 555 images
+├── valid/
+│   ├── Healthy structure/             # 75 images
+│   └── Structure with salt damage/    # 53 images
+└── test/
+    ├── Healthy structure/             # 38 images
+    └── Structure with salt damage/    # 26 images
+```
+*Note: All images are in `.jpg` format.*
 
-│── valid/ │
-
-    ├── Class_0/ (Healthy Structures) │
-  
-    ├── Class_1/ (Salt Damaged Structures) │
-
-│── test/ │
-
-    ├── Class_0/ (Healthy Structures) │ 
-    
-    ├── Class_1/ (Salt Damaged Structures) │
-
-📌 **Images are in `.jpg` format** and have been preprocessed to **224x224 pixels** for deep learning applications.
 ---
 
-## 🛠️ Usage
+## 🛠️ Usage & Code Examples
 
-### **📥 Downloading the Dataset**
-To download this dataset, clone this repository using:
+### **📥 System Requirements & Installation**
+- **Python**: 3.8+
+- **Disk Space**: ~100 MB
+- **Libraries**: `torch`, `torchvision` (for PyTorch) or `tensorflow` (for TF/Keras)
 
-    git clone https://github.com/yourusername/SaltSpot.git
+Clone the repository to get started:
+```bash
+git clone https://github.com/yourusername/SaltSpot.git
+cd SaltSpot
+```
 
-Alternatively, you can download the dataset manually from the __Releases__ section.
+### **💻 PyTorch Dataloader Example**
+Here is a quick snippet to load the dataset using PyTorch's `ImageFolder`:
+
+```python
+import torch
+from torchvision import datasets, transforms
+from torch.utils.data import DataLoader
+
+# Define transformations (images are already 224x224, but normalization is recommended)
+transform = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+
+# Load Datasets
+data_dir = 'Civil-damage-structure-images'
+train_dataset = datasets.ImageFolder(root=f'{data_dir}/train', transform=transform)
+valid_dataset = datasets.ImageFolder(root=f'{data_dir}/valid', transform=transform)
+
+# Create DataLoaders
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=2)
+valid_loader = DataLoader(valid_dataset, batch_size=32, shuffle=False, num_workers=2)
+
+print(f"Classes found: {train_dataset.classes}")
+print(f"Total training batches: {len(train_loader)}")
+```
+
+### **💻 TensorFlow/Keras Example**
+```python
+import tensorflow as tf
+
+data_dir = 'Civil-damage-structure-images/train'
+
+train_ds = tf.keras.utils.image_dataset_from_directory(
+  data_dir,
+  validation_split=0.2,
+  subset="training",
+  seed=123,
+  image_size=(224, 224),
+  batch_size=32
+)
+```
 
 ## 📊 Applications
 
@@ -227,26 +294,38 @@ Alternatively, you can download the dataset manually from the __Releases__ secti
 
 ## 🏆 Citation
 
-If you use this dataset in your research or project, please cite the following papers:
+If you use this dataset in your research or project, please cite the following paper:
 
-@article{guzman2025digital, <be>
-  title={A digital twin approach based method in civil engineering for classification of salt damage in building evaluation}, <br>
-  author={Guzmán-Torres, JA and Domínguez-Mota, FJ and Guzmán, Elia M Alonso and Tinoco-Guerrero, G and Tinoco-Ruíz, JG}, <br>
-  journal   = {Mathematics and Computers in Simulation}, <br>
-  year      = {2025}, <br>
-  volume    = {233}, <br>
-  pages     = {433-447}, <br>
-  doi       = {https://doi.org/10.1016/j.matcom.2025.02.003 } <br>
+```bibtex
+@article{guzman2025digital,
+  title     = {A digital twin approach based method in civil engineering for classification of salt damage in building evaluation},
+  author    = {Guzm{\'a}n-Torres, JA and Dom{\'\i}nguez-Mota, FJ and Guzm{\'a}n, Elia M Alonso and Tinoco-Guerrero, G and Tinoco-Ru{\'\i}z, JG},
+  journal   = {Mathematics and Computers in Simulation},
+  year      = {2025},
+  volume    = {233},
+  pages     = {433-447},
+  doi       = {10.1016/j.matcom.2025.02.003}
 }
+```
+
+## 🤝 Contributing
+
+We welcome contributions to improve the **SaltSpot** dataset! If you have additional labeled images of concrete structures or want to report an issue, please follow these steps:
+1. **Fork** the repository.
+2. **Create** a new branch (`git checkout -b feature/AddNewImages`).
+3. **Commit** your changes (`git commit -m 'Add 50 new images of salt damage'`).
+4. **Push** to the branch (`git push origin feature/AddNewImages`).
+5. **Open a Pull Request** describing your additions.
 
 ## ⚖️ License
 
-This dataset is released under the MIT License. You are free to use, modify, and distribute it, but please credit the *authors* appropriately. <br>
+This dataset is released under the **[MIT License](LICENSE)**. You are free to use, modify, and distribute it for both academic and commercial purposes, provided you credit the original authors appropriately.  
 *MIT License © 2025 J. A. Guzmán-Torres et al.*
 
 ## 📩 Contact
-For any questions or issues, please open an issue 🔗 in this repository or contact:
 
-📢 J. A. Guzmán-Torres - Lead Researcher <br>
-✉️ Email: jose.alberto.guzman@umich.mx.com <br>
-🏛 Institution: Universidad Michoacana de San Nicolás de Hidalgo
+For any questions, collaboration proposals, or issues, please open an [issue 🔗](https://github.com/yourusername/SaltSpot/issues) in this repository or contact the lead researcher:
+
+- 📢 **J. A. Guzmán-Torres** - Lead Researcher
+- ✉️ **Email**: [jose.alberto.guzman@umich.mx](mailto:jose.alberto.guzman@umich.mx)
+- 🏛 **Institution**: Universidad Michoacana de San Nicolás de Hidalgo (UMSNH)
