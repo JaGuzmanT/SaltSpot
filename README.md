@@ -68,16 +68,16 @@ The dataset is strictly divided into two **main classes**:
 
 ### **📁 Folder Organization**  
 ```text
-Civil-damage-structure-images/
-├── train/
-│   ├── Healthy structure/             # 795 images
-│   └── Structure with salt damage/    # 555 images
-├── valid/
-│   ├── Healthy structure/             # 75 images
-│   └── Structure with salt damage/    # 53 images
-└── test/
-    ├── Healthy structure/             # 38 images
-    └── Structure with salt damage/    # 26 images
+📦 Civil-damage-structure-images/
+├── 📁 train/
+│   ├── 📁 Healthy structure/             # 795 images
+│   └── 📁 Structure with salt damage/    # 555 images
+├── 📁 valid/
+│   ├── 📁 Healthy structure/             # 75 images
+│   └── 📁 Structure with salt damage/    # 53 images
+└── 📁 test/
+    ├── 📁 Healthy structure/             # 38 images
+    └── 📁 Structure with salt damage/    # 26 images
 ```
 *Note: All images are in `.jpg` format.*
 
